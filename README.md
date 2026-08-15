@@ -33,7 +33,7 @@ TensorFlow/Keras, GloVe 100d embeddings, Flask, scikit-learn, NumPy, Python
 
 ## Project structure
 
-​```
+```
 ├── frontend/
 │   ├── app.py              # Flask app — loads model, serves predictions
 │   ├── models/             # trained model, tokenizer, label encoder
@@ -42,15 +42,15 @@ TensorFlow/Keras, GloVe 100d embeddings, Flask, scikit-learn, NumPy, Python
 ├── data/                   # dataset
 ├── outputs/                # metrics, classification report, figures
 └── README.md
-​```
+```
 
 ## Run the app
 
-​```bash
+```bash
 cd frontend
 pip install -r requirements.txt
 python app.py
-​```
+```
 
 Then open http://localhost:5000 and enter a tweet.
 
